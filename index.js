@@ -6,7 +6,7 @@ function onKeydown(event) {
      dodger.style.left = currentPosition - 5 + 'px'
   }
   if(event.keyCode === 39){
-    const currentPosition = parseInt(dodger.style.bottom)
+    const currentPosition = parseInt(dodger.style.left)
      dodger.style.bottom = currentPosition + 5 + 'px'
   }
   if(event.keyCode == 38){
