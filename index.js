@@ -28,7 +28,7 @@ function onKeydown(event) {
      dodger.style.left = currentPosition - 5 + 'px'
   }
   if(event.keyCode === 39){
-    moveDodgerRightDodgerRight()
+    moveDodgerRight()
   }
   if(event.keyCode === 40){
   moveDodgerDown()
