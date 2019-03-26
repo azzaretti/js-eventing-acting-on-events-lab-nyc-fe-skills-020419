@@ -16,7 +16,9 @@ function moveDodgerRight(){
 
 function moveDodgerDown(){
   const currentPosition = parseInt(dodger.style.bottom)
+  if(currentPosition - 5 >= 0){
      dodger.style.bottom = currentPosition - 5 + 'px'
+  }
 }
 
 function moveDodgerUp(){
