@@ -23,7 +23,9 @@ function moveDodgerDown(){
 
 function moveDodgerUp(){
   const currentPosition = parseInt(dodger.style.bottom)
+  if(currentPosition + 5 <= 380){
      dodger.style.bottom = currentPosition + 5 + 'px'
+  }
 }
 
 function onKeydown(event) {
