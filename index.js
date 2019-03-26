@@ -9,7 +9,7 @@ window.addEventListener('scroll', noscroll);
 
 function moveDodgerRight(){
   const currentPosition = parseInt(dodger.style.left)
-  if(currentPosition + 5 <= 380){
+  if(currentPosition + 5 <= 360){
        dodger.style.left = currentPosition + 5 + 'px'
      }
 }
