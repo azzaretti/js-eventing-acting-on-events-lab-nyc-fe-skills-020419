@@ -25,7 +25,9 @@ function moveDodgerUp(){
 function onKeydown(event) {
   if(event.keyCode === 37){
     const currentPosition = parseInt(dodger.style.left)
-     dodger.style.left = currentPosition - 5 + 'px'
+     if(currentPosition - 5 >= 0){
+       dodger.style.left = currentPosition - 5 + 'px'
+     }
   }
   if(event.keyCode === 39){
     moveDodgerRight()
@@ -36,9 +38,7 @@ function onKeydown(event) {
   if(event.keyCode == 38){
     moveDodgerUp()
   }
-  if(currentPosition - 5 >= 0) {
-    
-  }
+  
 }
   // if(event.keyCode == 40){
   //   const currentPosition = parseInt(dodger.style.bottom)
