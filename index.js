@@ -1,3 +1,7 @@
 const dodger = document.getElementById('dodger')
 
-dodger
+function onKeydown(event) {
+  
+}
+
+dodger.addEventListener('keydown', onKeydown)
