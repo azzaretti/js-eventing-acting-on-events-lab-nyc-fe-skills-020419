@@ -36,6 +36,9 @@ function onKeydown(event) {
   if(event.keyCode == 38){
     moveDodgerUp()
   }
+  if(currentPosition - 5 >= 0) {
+    
+  }
 }
   // if(event.keyCode == 40){
   //   const currentPosition = parseInt(dodger.style.bottom)
