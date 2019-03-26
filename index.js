@@ -18,18 +18,18 @@ function onKeydown(event) {
      dodger.style.left = currentPosition - 5 + 'px'
   }
   else if(event.keyCode === 39){
-    moveDodgerRight()
+    moveDodgerRightDodgerRight()
   }
 }
   
-  // if(event.keyCode == 38){
-  //   const currentPosition = parseInt(dodger.style.bottom)
-  //   dodger.style.bottom = currentPosition + 5 + 'px'
-  // }
-  // if(event.keyCode == 40){
-  //   const currentPosition = parseInt(dodger.style.bottom)
-  //   dodger.style.bottom = currentPosition - 5 + 'px'
-  // }
+  if(event.keyCode == 38){
+    const currentPosition = parseInt(dodger.style.bottom)
+    dodger.style.bottom = currentPosition + 5 + 'px'
+  }
+  if(event.keyCode == 40){
+    const currentPosition = parseInt(dodger.style.bottom)
+    dodger.style.bottom = currentPosition - 5 + 'px'
+  }
 
 
 document.addEventListener('keydown', onKeydown)
