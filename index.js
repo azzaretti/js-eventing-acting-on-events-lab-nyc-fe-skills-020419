@@ -7,7 +7,7 @@ function noscroll() {
 window.addEventListener('scroll', noscroll);
 
 
-function makeDodgerRight(){
+function moveDodgerRight(){
   const currentPosition = parseInt(dodger.style.left)
   dodger.style.left = currentPosition + 5 + 'px'
 }
@@ -18,7 +18,7 @@ function onKeydown(event) {
      dodger.style.left = currentPosition - 5 + 'px'
   }
   else if(event.keyCode === 39){
-    makeDodgerRight()
+    moveDodgerRight()
   }
 }
   
