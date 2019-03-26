@@ -12,14 +12,25 @@ function moveDodgerRight(){
   dodger.style.left = currentPosition + 5 + 'px'
 }
 
+function moveDodgerDown(){
+  const currentPosition = parseInt(dodger.style.bottom)
+     dodger.style.bottom = currentPosition - 5 + 'px'
+}
+
+function moveDodgerUp(){
+  const currentPosition = parseInt(dodger.style.bottom)
+     dodger.style.bottom = currentPosition + 5 + 'px'
+}
+
 function onKeydown(event) {
   if(event.keyCode === 37){
     const currentPosition = parseInt(dodger.style.left)
      dodger.style.left = currentPosition - 5 + 'px'
   }
-  else if(event.keyCode === 39){
+  if(event.keyCode === 39){
     moveDodgerRightDodgerRight()
   }
+  if(event.keyCode ===)
 }
   
   if(event.keyCode == 38){
