@@ -30,7 +30,8 @@ function onKeydown(event) {
   if(event.keyCode === 39){
     moveDodgerRightDodgerRight()
   }
-  if(event.keyCode ===)
+  if(event.keyCode === 40)
+  move
 }
   
   if(event.keyCode == 38){
