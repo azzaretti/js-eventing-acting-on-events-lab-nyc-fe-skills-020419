@@ -5,7 +5,10 @@ function onKeydown(event) {
     const currentPosition = parseInt(dodger.style.left)
      dodger.style.left = currentPosition - 5 + 'px'
   }
-  if(event.keyCode ===)
+  if(event.keyCode === 39){
+    onst currentPosition = parseInt(dodger.style.left)
+     dodger.style.left = currentPosition + 5 + 'px'
+  }
 }
 
 document.addEventListener('keydown', onKeydown)
