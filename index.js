@@ -9,7 +9,10 @@ window.addEventListener('scroll', noscroll);
 
 function moveDodgerRight(){
   const currentPosition = parseInt(dodger.style.left)
-  dodger.style.left = currentPosition + 5 + 'px'
+  if(currentPosition + 5 <= 400){
+       dodger.style.left = currentPosition - 5 + 'px'
+     }
+     else {}
 }
 
 function moveDodgerDown(){
