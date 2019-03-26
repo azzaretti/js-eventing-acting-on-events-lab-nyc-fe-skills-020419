@@ -22,6 +22,10 @@ function onKeydown(event) {
     const currentPosition = parseInt(dodger.style.bottom)
      dodger.style.bottom = currentPosition + 5 + 'px'
   }
+  ifif(event.keyCode == 38){
+    const currentPosition = parseInt(dodger.style.bottom)
+     dodger.style.bottom = currentPosition + 5 + 'px'
+  }
 }
 
 document.addEventListener('keydown', onKeydown)
