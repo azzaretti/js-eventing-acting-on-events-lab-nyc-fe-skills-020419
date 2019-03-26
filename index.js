@@ -1,5 +1,14 @@
 const dodger = document.getElementById('dodger')
 
+function noscroll() {
+  window.scrollTo( 0, 0 );
+}
+
+window.addEventListener('scroll', noscroll);
+
+
+
+
 function onKeydown(event) {
   if(event.keyCode === 37){
     const currentPosition = parseInt(dodger.style.left)
