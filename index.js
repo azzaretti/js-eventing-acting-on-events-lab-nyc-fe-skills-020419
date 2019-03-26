@@ -24,7 +24,7 @@ function onKeydown(event) {
   }
   ifif(event.keyCode == 40){
     const currentPosition = parseInt(dodger.style.bottom)
-     dodger.style.bottom = currentPosition + 5 + 'px'
+     dodger.style.bottom = currentPosition - 5 + 'px'
   }
 }
 
